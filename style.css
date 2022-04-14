@@ -1,0 +1,42 @@
+#name{
+    color: green;
+    font-size: 18px;
+    font-style: normal;
+}
+
+#verdict{
+    font-size:14px;
+    font-style: italic;
+}
+
+table.status-table{
+	text-align:center;
+	border:1px solid red;
+	margin-left:auto;
+	margin-right:auto;
+	width:90%;
+}
+
+table.status-table td{
+	border:1px solid red;
+}
+
+table.status-table th{
+	background-color:rgb(69, 65, 65);
+    color:white;
+    text-align:center;
+}
+
+table.status-table tr.correct{
+    color:#679667;
+    background-color:#e4f0ad
+}
+
+table.status-table tr.wrong{
+    color:#ce768d;
+    background-color:#b3887a;
+}
+
+table tr.subtask-result{
+	background-color:white;
+}
